@@ -71,8 +71,9 @@
 
 ```bash
 docker run -d -p 8000:80 -v todo_data:/app/data denistkachenko/todo_service:latest
-
+```
 #### Сервис сокращения URL
 
 ```bash
 docker run -d -p 8000:80 -v todo_data:/app/data denistkachenko/shorturl_service:latest
+```
