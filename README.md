@@ -17,22 +17,22 @@
 
 ### Эндпоинты
 
-**GET /items/completed**:
+1. **GET /items/completed**:
 - Получение списка выполненных задач.
-**GET /items/incomplete**:
+2. **GET /items/incomplete**:
 - Получение списка невыполненных задач.
-**GET /items/stats**:
+3. **GET /items/stats**:
 - Получение статистики задач (общее количество, выполненные, невыполненные).
-**POST /items**:
+4. **POST /items**:
 - Создание задачи.
   - Параметры: `title` (обязательный), `description` (опциональный), `completed` (по умолчанию: `false`).
-**GET /items**:
+5. **GET /items**:
 - Получение списка всех задач.
-**GET /items/{item_id}**:
+6. **GET /items/{item_id}**:
 - Получение задачи по её ID.
-**PUT /items/{item_id}**:
+7. **PUT /items/{item_id}**:
 - Обновление задачи по её ID.
-**DELETE /items/{item_id}**:
+8. **DELETE /items/{item_id}**:
 - Удаление задачи по её ID.
 
 ### Особенности
